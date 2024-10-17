@@ -15,7 +15,7 @@ const Navbar = () => {
       variants={navVariants}
       initial="hidden"
       animate="visible"
-      className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 p-4 text-white shadow-lg"
+      className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 p-4 text-white shadow-lg sticky top-0 z-10"
     >
       <div className="container mx-auto flex justify-between items-center">
         <motion.h1
