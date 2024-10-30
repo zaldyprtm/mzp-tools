@@ -62,7 +62,7 @@ export default function Tools() {
                             </Link>
                         </div>
 
-                        <div className="bg-slate-200 p-4 rounded-lg shadow-md" aria-disabled>
+                        {/* <div className="bg-slate-200 p-4 rounded-lg shadow-md" aria-disabled>
                             <h2 className="font-bold text-xl mb-2 text-black">Coming Soon</h2>
                             <p className="text-gray-600"> Soon </p>
                             <Link href="#">
@@ -75,6 +75,90 @@ export default function Tools() {
                                 </motion.button>
                             </Link>
                         </div>
+                     */}
+                        <div className="bg-white p-4 rounded-lg shadow-md">
+                            <h2 className="font-bold text-xl mb-2 text-black">BlackBox Ai</h2>
+                            <p className="text-gray-600"> Your Programming Assistant </p>
+                            <Link href="/blackbox">
+                                <motion.button
+                                    whileHover={{ scale: 1.1 }}
+                                    className="bg-blue-500 text-white p-2 rounded-md mt-4"
+                                >
+                                    Get Started
+                                </motion.button>
+                            </Link>
+                        </div>
+
+                        <div className="bg-white p-4 rounded-lg shadow-md">
+                            <h2 className="font-bold text-xl mb-2 text-black">Info Gempa</h2>
+                            <p className="text-gray-600"> Info gempa terkini </p>
+                            <Link href="/gempa">
+                                <motion.button
+                                    whileHover={{ scale: 1.1 }}
+                                    className="bg-blue-500 text-white p-2 rounded-md mt-4"
+                                >
+                                    Get Started
+                                </motion.button>
+                            </Link>
+                        </div>  
+
+                        <div className="bg-white p-4 rounded-lg shadow-md">
+                            <h2 className="font-bold text-xl mb-2 text-black">Berita Terkini</h2>
+                            <p className="text-gray-600"> Info Berita terkini </p>
+                            <Link href="/berita">
+                                <motion.button
+                                    whileHover={{ scale: 1.1 }}
+                                    className="bg-blue-500 text-white p-2 rounded-md mt-4"
+                                >
+                                    Get Started
+                                </motion.button>
+                            </Link>
+                        </div>  
+
+                        <div className="bg-white p-4 rounded-lg shadow-md">
+                            <h2 className="font-bold text-xl mb-2 text-black">Surah</h2>
+                            <p className="text-gray-600"> Surah Quran </p>
+                            <Link href="/surah">
+                                <motion.button
+                                    whileHover={{ scale: 1.1 }}
+                                    className="bg-blue-500 text-white p-2 rounded-md mt-4"
+                                >
+                                    Get Started
+                                </motion.button>
+                            </Link>
+                        </div>  
+
+
+
+                        <div className="bg-white p-4 rounded-lg shadow-md">
+                            <h2 className="font-bold text-xl mb-2 text-black">Text to Image Generator</h2>
+                            <p className="text-gray-600"> Generate Realistic Image </p>
+                            <Link href="/text2img">
+                                <motion.button
+                                    whileHover={{ scale: 1.1 }}
+                                    className="bg-blue-500 text-white p-2 rounded-md mt-4"
+                                >
+                                    Get Started
+                                </motion.button>
+                            </Link>
+                        </div>  
+
+
+                        <div className="bg-white p-4 rounded-lg shadow-md">
+                            <h2 className="font-bold text-xl mb-2 text-black">Search Movies</h2>
+                            <p className="text-gray-600"> Cari film apik </p>
+                            <Link href="/filmapik">
+                                <motion.button
+                                    whileHover={{ scale: 1.1 }}
+                                    className="bg-blue-500 text-white p-2 rounded-md mt-4"
+                                >
+                                    Get Started
+                                </motion.button>
+                            </Link>
+                        </div>  
+
+
+
                     </div>
                 </motion.div>
 
